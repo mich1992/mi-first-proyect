@@ -1,0 +1,46 @@
+body{
+    background: url("../img/hojasrojas.jpg");
+    background-attachment: fixed;
+    transition: 500ms;
+}
+#logo{
+    transition: 500ms;
+    background: #FE2E2E;
+}
+#menu ul li :hover{
+    background: #FE2E2E;
+   
+    transition: 500ms;
+}
+.buttom{
+    background:#FE2E2E;
+    transition: 500ms;
+    
+
+}
+#formulario h4{
+   
+    background: #FE2E2E;
+    transition: 500ms;
+}
+input[type="submit"]:hover{
+    background: #FE2E2E;
+    transition: 500ms;
+    
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open {
+    background-color:#FE2E2E;
+}
+.time{
+    
+    border: 5px dashed #FE2E2E;
+  
+}
+button[type="submit"]:hover{
+    background-color:#FE2E2E;
+    transition: 300ms;
+}
+    

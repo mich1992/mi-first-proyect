@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+img{
+    width:100%;
+}
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background : white;
+    box-shadow: 0px 0px 50px black;
+    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+#logo{
+    font-family: verdana, arial;
+    font-size: 28px;
+    letter-spacing: 4px;
+    line-height: 75px;
+    
+    color: white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float:left;
+    text-transform: uppercase;
+   
+            
+}
+#menu{
+    font-family:  Helvetica, Arial;
+    background: black;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+}
+#menu ul{
+    line-height:46px;
+    list-style:  none;
+   
+  
+}
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 1000ms;
+    word-spacing: 10px;
+   
+  
+    
+}
+#menu ul li :hover{
+  
+    color: white;
+   
+}
+#menu ul li:not( :hover ){
+    transition: all 1000ms;
+}
+
+
+#menu  ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 500ms;
+}
+#parrafo{
+    width: 60%;
+    float: left;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 20px;
+   
+    
+}
+
+#foter{
+font-family: helvetica;
+margin: 0px auto;
+width: 65%;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+height: 47px;
+color:white;
+background:rgba(51,51,51,0.7);
+}
+
+
+#fecha{
+    color:gray;
+    display: block; 
+    margin-top:5px;
+    
+
+}
+#parrafo p{
+    margin-top: 15px;
+    text-align: justify;
+    
+}
+.buttom{
+    
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+    float:left;
+    margin-bottom: 20px;
+   
+    
+
+}
+#sidebar{
+    font-family: Arial, Helvetica;
+  
+}
+
+   
+
+#sidebar p{
+    text-align: left;
+}
+#sidebar h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height:10px;
+    color: #333;
+}
+#formulario{
+    width: 100%;
+    margin-top: 30px;
+}
+.derecha{
+    float: right;
+    width: 30%;
+}
+#formulario h4{
+    text-align: center;
+    padding:10px;
+    font-family: Arial, Helvetica;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+label[for="name"],
+label[for="email"],
+label[for="password"]{
+  font-family: arial;
+  margin-top: 30px;
+
+}
+input[type="submit"]{
+    padding:5px;
+    margin-top: 10px;
+    background:rgb(241, 237, 237);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 30%;
+    
+}
+input{
+    width: 100%;
+  
+}
+input[type="submit"]:hover{
+    
+    color: white;
+    cursor: pointer;
+    border-radius: 1px solid black;
+    transition: all 300ms;
+    width: 30%;
+}
+input[type="submit"]:not(:hover ){
+    transition: all 1000ms;
+}
+img[title="Dios del trueno"],
+img[title="Steve Rogers"],
+img[title="Tony Stark"],
+img[title="Peter"]{
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+  
+}
+img[title="Steve Rogers"]{
+    object-position: top;
+}
+
+#botonera{
+    top: 40%;
+    background: rgba(51,51,51,0.7);
+    position: fixed;
+    border: 1px solid white;
+    width:50px;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+#green,
+#blue,
+#red{
+    width: 30px;
+    height: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin:auto;
+    margin-top: 4px;
+
+}
+#green{
+    background: #088A4B;
+
+}
+#blue{
+    background: #2E64FEFF;
+}
+#red{
+    background:  #FE2E2E;
+}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    
+  }
+.subir{
+    float:right;
+    color: white;
+    transition: all 500ms;
+    text-decoration: none;
+    border: 1px solid rgba( 51,51,51,0.1);
+    
+}
+.acordeon{
+    width: 60%;
+    float: left;
+}
+.accordion-container .accordion-title {
+    position:relative;
+     margin:0;
+    padding:0.625em 0.625em 0.625em 2em;
+    background-color:#000; 
+    font-size:1.25em;  
+   font-weight:normal;  
+   color:#fff;
+   cursor:pointer;
+}
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open {
+  background-color:#00aaa7;
+}
+.accordion-container .accordion-title::before {
+  content:"";
+  position:absolute;
+  top:50%;
+  right:25px;
+  width:15px;
+  height:2px;
+  transform: rotate(90deg);
+  background:#fff;
+  transition:all .3s ease-in-out;
+
+}
+.accordion-container .accordion-title::after {
+   content:"";
+   position:absolute;
+   top:50%;
+   right:25px;
+   width:15px;
+   height:2px;
+    background:#fff;
+   transition:all .2s ease-in-out;
+}
+.accordion-container .accordion-title.open::before {
+ transform: rotate(180deg);
+}
+.accordion-container .accordion-title.open::after {
+ opacity:0;
+
+}
+.accordion-content {
+ padding-left:2.3125em;
+ border:1px solid #0079c1;
+}
+.reloj{
+    width: 60%;
+    float: left;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-family: helvetica,arial;
+    font-size: 20px;
+    padding: 10px;
+    
+    width: 60%;
+}
+.registro{
+    width:60%;
+    float: left;
+}
+#demoForm{
+    font-family: helvetica,arial;
+    font-size: 17px;
+    border: 3px solid black;
+    width: 80%;
+    padding: 10px;
+}
+button[type="submit"]{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:not(:hover ){
+    transition: all 1000ms;
+}
+#demoForm input{
+  width:70%
+}
+
+    

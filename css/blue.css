@@ -1,0 +1,53 @@
+body{
+    background: url("../img/hojasazules.jpg");
+    background-attachment: fixed;
+    transition: 500ms;
+}
+#logo{
+    
+    background: #2E64FE;
+    transition: 500ms;
+}
+#menu ul li :hover{
+    background: #2E64FE;
+   
+    transition: 500ms;
+}
+.buttom{
+    background:#2E64FE;
+    transition: 500ms;
+    
+
+}
+#formulario h4{
+   
+    background: #2E64FE;
+    transition: 500ms;
+}
+input[type="submit"]:hover{
+    background: #2E64FE;
+    
+    transition: 500ms;
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open {
+    background-color:#2E64FE;
+
+}
+.time{
+    
+    border: 5px dashed #2E64FE;
+  
+}
+button[type="submit"]:hover{
+    background-color:#2E64FE;
+    transition: 300ms;
+}
+button[type="submit"]:hover{
+    background-color:#2E64FE;
+    transition: 300ms;
+}
+
+    

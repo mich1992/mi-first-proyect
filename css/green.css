@@ -1,0 +1,47 @@
+body{
+    background: url("../img/hojasverdes.jpg");
+    background-attachment: fixed;
+    transition: 500ms;
+}
+#logo{
+    transition: 500ms;
+    background: #088A4B;
+}
+#menu ul li :hover{
+    background: #088A4B;
+    transition: 500ms;
+   
+}
+.buttom{
+    background:#088A4B;
+    transition: 500ms;
+    
+
+}
+#formulario h4{
+   
+    background: #088A4B;
+    transition: 500ms;
+}
+input[type="submit"]:hover{
+    background: #088A4B;
+    
+    transition: 500ms;
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open {
+    background-color:#088A4B;
+}
+.time{
+    
+    border: 5px dashed #088A4B;
+  
+}
+button[type="submit"]:hover{
+    background-color:#088A4B;
+    transition: 300ms;
+}
+ 
+    
